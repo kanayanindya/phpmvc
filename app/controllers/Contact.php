@@ -1,12 +1,12 @@
 <?php
 
-class Home extends Controller
+class Contact extends Controller
 {
     public function index()
     {
-        $data['judul'] = 'Home';
+        $data['judul'] = 'My Contacts';
         $this->view('templates/header', $data);
-        $this->view('home/index');
+        $this->view('contact/index');
         $this->view('templates/footer');
     }
 }

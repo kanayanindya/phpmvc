@@ -2,7 +2,7 @@
 
 class About
 {
-    public function index($nama, $pekerjaan)
+    public function index($nama = "Puput", $pekerjaan = "Dosen")
     {
         echo "Halo, nama saya $nama, saya seorang $pekerjaan";
     }

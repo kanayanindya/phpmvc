@@ -21,6 +21,8 @@
                     <a class="nav-link active" href="<?= BASE_URL; ?>">Home <span class="sr-only">(current)</span></a>
                     <a class="nav-link" href="<?= BASE_URL; ?>/about">About</a>
                     <a class="nav-link" href="<?= BASE_URL; ?>/contact">Contact</a>
+                    <a class="nav-link" href="<?= BASE_URL; ?>/mahasiswa">Mahasiswa</a>
+
                 </div>
             </div>
         </div>
